@@ -15,11 +15,6 @@ export default function Home() {
           className="h-24 w-24 object-contain mb-4"
         />
 
-        {/* Title */}
-        <h1 className="text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-100 mb-8">
-          Crypto Profit Calculator
-        </h1>
-
         <Calculator />
         <DonationButton />
       </div>
