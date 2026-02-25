@@ -12,7 +12,7 @@ export default function Home() {
         <img
           src="/favicon.png"
           alt="Crypto Profit Calculator Logo"
-          className="h-16 w-16 object-contain mb-4"
+          className="h-20 w-20 object-contain mb-4"
         />
 
         {/* Title */}
