@@ -1,5 +1,6 @@
 // src/components/DonationButton.jsx
 import React from "react";
+import { DONATION_LINK, DONATION_CURRENCY } from "../config/donations";
 
 function classNames(...xs) {
   return xs.filter(Boolean).join(" ");
