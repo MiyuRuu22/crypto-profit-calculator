@@ -19,7 +19,7 @@ export default function DonationButton() {
     <section className="mt-12 flex flex-col items-center">
       <div className="text-center">
         <h3 className="text-base font-medium text-slate-800 dark:text-slate-100">
-          Please buy me a coffee to keep this up <span role="img" aria-label="coffee">☕</span>
+          Buy me a coffee please <span role="img" aria-label="coffee">☕</span>
         </h3>
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
           Your support helps maintain and improve this calculator.
