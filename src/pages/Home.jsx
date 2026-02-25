@@ -2,6 +2,7 @@
 import Calculator from "../components/Calculator";
 import DonationButton from "../components/DonationButton";
 import Layout from "../components/Layout";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
