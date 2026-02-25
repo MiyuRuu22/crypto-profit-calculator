@@ -7,9 +7,19 @@ export default function Home() {
   return (
     <Layout>
       <div className="flex flex-col items-center">
+
+        {/* Logo */}
+        <img
+          src="/favicon.png"
+          alt="Crypto Profit Calculator Logo"
+          className="h-16 w-16 object-contain mb-4"
+        />
+
+        {/* Title */}
         <h1 className="text-4xl font-bold tracking-tight text-slate-800 dark:text-slate-100 mb-8">
           Crypto Profit Calculator
         </h1>
+
         <Calculator />
         <DonationButton />
       </div>
